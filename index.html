@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<title>My side</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!--<img src="{{ url_for('static', filename='images/image.png')}}">-->
+<body class="w3-content" style="max-width:1300px">
+<!-- First Grid: Logo & About -->
+<div class="w3-row">
+    <div class="w3-half w3-black w3-container w3-center" style="height:700px">
+        <div class="w3-padding-64">
+            <h1>&#321ukasz Mazurek</h1>
+        </div>
+        <div class="w3-padding-64">
+            <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Home</a>
+            <a href="#aboutme" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">About Me</a>
+            <a href="#resume" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Skills&Experience</a>
+            <a href="#contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Contact</a>
+        </div>
+    </div>
+    <div class="w3-half w3-blue-grey w3-container" style="height:700px">
+        <div class="w3-padding-64 w3-center" id="aboutme">
+            <h1>About Me</h1>
+            <!--<img src="{{ url_for('static', filename='images/image.png')}}">class="w3-margin w3-circle"-->
+            <img src="image.png"  alt="Person"
+                 style="width:30%">
+            <div class="w3-left-align w3-padding-normal">
+                <p>Hi, My name is &#321ukasz Mazurek. I'm 22 years old and I came from Poland
+                    I'm last year Computer Science student. I study at Maria Curie-Sklodowska University.</p>
+                <p>I'm interested in maths, programming, machine learning and all things related with data</p>
+                <p>I take part in team projects on my study. Projects are about object recognition with python, opencv
+                    and
+                    web development with python, flask framework. My bachelor's thesis is about financial transaction
+                    analysis with machine learning</p>
+                <a href="https://github.com/LukaszMazurek" target="_blank"><p style="font-family:cursive;"> I'm also like crating 2D
+                    games.</p></a>
+                <p>In my free time I teach maths and train powerbilding.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Second Grid: Work & Resume -->
+<div class="w3-row">
+    <div class="w3-half w3-indigo w3-container" style="min-height:800px" id="resume">
+        <div class="w3-padding-64 w3-padding-large">
+            <h2>Skills & Experience</h2>
+            <div class="w3-container w3-responsive">
+                <table class="w3-table">
+                    <tr>
+                        <th>Algorithm Design & Analysis</th>
+                        <th>Machine learning & Data science & Maths</th>
+                        <th>Data Structures</th>
+                    </tr>
+                    <tr class="w3-white">
+                        <th>Big data & Microsoft SQL-Server</th>
+                        <th>Flask</th>
+                        <th>Pygame</th>
+                    </tr>
+                    <tr>
+                        <th>Python with numpy, pandas, scikit-learn</th>
+                        <th>C/C++</th>
+                        <th>SQL</th>
+                    </tr>
+                    <tr class="w3-white">
+                        <th>Scrum</th>
+                        <th>Github</th>
+                        <th>Team work</th>
+                    </tr>
+                    <div class="w3-left-align w3-padding-normal">
+                        <p>My experience is based on projects that I was participant at my study and on my own
+                            projects.</p>
+                    </div>
+
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="w3-half w3-teal w3-container" style="height:800px">
+        <div class="w3-padding-64 w3-padding-large" id="contact">
+            <h2>Contact</h2>
+            <p class="w3-opacity">GET IN TOUCH</p>
+            <table class="w3-table">
+                <tr>
+                    <td><p style="font-size: large;"> Email: lukaszmazurek.contact@gmail.com</p></td>
+                </tr>
+                </tr>
+                <tr class="w3-white">
+                    <td><p style="font-size: large;"> Phone: 667019325</p></td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/LukaszMazurek" target="_blank"><p style="font-size: large;"> Github</p></a></td>
+                </tr>
+                <tr class="w3-white">
+                    <td><a href="https://www.kaggle.com/ukaszmazurek" target="_blank"><p style="font-size: large;"> Kaggle</p></a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<!--<footer class="w3-container w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>-->
+
+</body>
+</html>
